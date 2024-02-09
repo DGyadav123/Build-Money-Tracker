@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#balance {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#transaction-list {
+    margin-top: 20px;
+}
+
+.transaction {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.income {
+    color: green;
+}
+
+.expense {
+    color: red;
+}
